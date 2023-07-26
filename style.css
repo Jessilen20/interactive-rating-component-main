@@ -1,0 +1,41 @@
+.containerMain{
+    background-color: hsl(216,12%,8%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15rem;
+}
+
+.containerRating{
+    height: 400px;
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}
+
+.icon{
+
+}
+
+.containerRating-text{
+    
+}
+
+.containerRating-point{
+
+}
+
+.containerRating-button{
+
+}
+
+
+.attribution { 
+    position: fixed;
+    bottom: 10px;
+    font-size: 11px; text-align: center; 
+    color: aliceblue;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
