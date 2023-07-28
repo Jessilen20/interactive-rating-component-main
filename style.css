@@ -5,6 +5,7 @@
     --Dark_Blue: hsl(213, 19%, 18%);
     --Very_Dark_Blue: hsl(216, 12%, 8%);
     --Naranja: hsl(25, 97%, 53%);
+    --colorIcon:hsl(213, 19%, 25%);
 }
 
 
@@ -27,9 +28,13 @@
 .icon {
     width: 50px;
     height: 50px;
-    border-radius: 30px;
-    background-color: peru;
+    border-radius: 25px;
+    background-color: var(--colorIcon);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .containerRating-text {
     font-family: 'Overpass', sans-serif;
@@ -47,7 +52,10 @@
 .containerRating-point {
     display: flex;
     justify-content: space-between;
-
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: var(--Medium_Grey);
+    margin-top: 2rem;
 }
 
 .point{
@@ -57,7 +65,7 @@
     width: 50px;
     height: 50px;
     border-radius: 30px;
-    background-color: peru;
+    background-color: var(--colorIcon);
 }
 
 .containerRating-button {
@@ -68,11 +76,13 @@
     width: 350px;
     height: 42px;
     border-radius: 20px;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    border: none;
 
     font-size: 15px;
     font-family: 'Overpass', sans-serif;
     color: var(--White);
+    font-weight: 700;
 }
 
 
