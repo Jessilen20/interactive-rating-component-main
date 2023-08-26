@@ -68,6 +68,15 @@
     background-color: var(--colorIcon);
 }
 
+.point:hover{
+    background-color: var(--Naranja);
+    color: var(--White);
+}
+
+.point:active{
+    background-color: var(--Medium_Grey);
+}
+
 .containerRating-button {
     background-color: var(--Naranja);
     display: flex;
@@ -85,6 +94,10 @@
     font-weight: 700;
 }
 
+.containerRating-button:hover{
+    color: var(--Naranja);
+    background-color: var(--White);
+}
 
 .attribution {
     position: fixed;
