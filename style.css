@@ -110,3 +110,42 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.containerThanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.container-point {
+    color: var(--Naranja);
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 8px 28px;
+    background-color: var(--colorIcon);
+    display: inline-flex;
+    margin-top: 10px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.newText {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+#newTittle {
+    color: var(--White);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 4px;
+}
+
+.newText p {
+    font-size: 14px;
+    color: var(--Light_Grey);
+}
