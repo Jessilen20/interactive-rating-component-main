@@ -20,7 +20,7 @@
 .containerRating {
     height: 350px;
     width: 350px;
-    background-color: var(--Dark_Blue);
+    background: linear-gradient(to bottom, #222933, #181E27);
     border-radius: 20px;
     padding: 2rem;
 }
