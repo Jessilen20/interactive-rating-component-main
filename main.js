@@ -1,5 +1,6 @@
 //You selected <!-- Add rating here --> out of 5
 var puntaje = 0;
+
 //Funcion para guardar el puntaje
 function GuardarPuntaje(point) {
 
