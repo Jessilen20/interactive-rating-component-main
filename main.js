@@ -1,9 +1,10 @@
 //You selected <!-- Add rating here --> out of 5
 var puntaje = 0;
 
+
 //Funcion para guardar el puntaje
 function GuardarPuntaje(point) {
-
+    
     switch (point) {
         case "star1":
             puntaje = 1;

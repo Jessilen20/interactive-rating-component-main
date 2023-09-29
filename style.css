@@ -25,6 +25,10 @@
     background: linear-gradient(to bottom, #222933, #181E27);
     border-radius: 20px;
     padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .icon {
@@ -66,8 +70,10 @@
     align-items: center;
     width: 50px;
     height: 50px;
+    border: none;
     border-radius: 30px;
     background-color: var(--colorIcon);
+    color: var(--Medium_Grey);
 }
 
 .point:hover{
@@ -75,8 +81,9 @@
     color: var(--White);
 }
 
-.point:active{
+.point:focus{
     background-color: var(--Medium_Grey);
+    color: var(--White);
 }
 
 .containerRating-button {
